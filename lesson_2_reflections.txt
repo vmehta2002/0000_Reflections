@@ -1,0 +1,10 @@
+1.  What happens when you initialize a repository? Why do you need to do it?
+	
+	When a repository is initialized, the directory and its contents are marked as a something to be tracked and accounted for.  In a banking sense, it is like opening a checking account at the bank.  You may have lots of cash and you can give it to the bank.  But without having first opened an account, there is nothing for the bank to track or to be held accountable for.  Creating the repository is analygous to opening the bank account, which now allows you to make a deposit and track any changes.
+
+2.  To make an an initial commit, perform the following:
+	
+	git add: addes a file to the staging area before the commit
+	"git add cake-recipe.txt"
+
+	Then run git status
