@@ -1,1 +1,8 @@
 This file has been created to capture my learnings from lesson 3 of the Git course.
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+  Some instances where I would prefer to use a remote repository would be:
+  - When collaborating with remote colleagues on the same project
+  - When concerned about backing up files so they're not lost
+  - When working from multiple machines or locations
