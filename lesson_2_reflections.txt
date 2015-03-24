@@ -9,4 +9,20 @@
 
 	Then run git status
 
-3.  
+3.  How is the staging area different from the working directory and the 
+	repository? What value do you think it offers?
+
+	The staging area is a temporary working directory that allows you to bundle files together before making a commit so that they can all be committed as a package.  
+
+	This allows the user to keep many files in the working directory without having them to be put in the repository.  
+
+4.	git diff (without argument)	shows difference between file in working directory and last commit
+
+5.  git diff --stage shows difference between file in staging area and commit
+
+6.  3 Different types of diff commands
+	git diff (working directory vs. staging area)
+	git diff -- staged (staging area vs. commit 1)
+	git diff commit 1 commit 2 (commit 1 vs. commit 2)
+
+	
